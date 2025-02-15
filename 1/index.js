@@ -110,10 +110,10 @@ let  yearOfBirth = prompt("сіко вам років?:");
 let  city4 = prompt("місце проживання :");
 
 
-if (isNaN(yearOfBirth) || yearOfBirth.trim() === "") {
+if (isNaN(presentYear) || presentYear.trim() === "") {
     alert("має бути число !");
 } else {
-     let  age = currentYear - parseInt(yearOfBirth);
+     let  age = presentYear - parseInt(yearOfBirth);
 
     
     let ageGroup;
